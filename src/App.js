@@ -1,14 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Navbar from './Nav.js';
+
 import Hero from './Hero';
+import Header from './Header';
+import { RadialGradient } from "react-text-gradients";
+
 function App() {
+
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <Navbar />
-        <Hero />
-      </header>
+      <Header />
+      <Hero />
+
     </div>
   );
 }
