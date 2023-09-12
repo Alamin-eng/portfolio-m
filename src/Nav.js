@@ -21,7 +21,11 @@ function NavBar() {
         <li>
           <Link
             className="nav-link"
-            style={{ textDecoration: "none", color: "red" }}
+            style={{
+              textDecoration: "none",
+              color: "red",
+              justifyContent: "center",
+            }}
             to="/"
           >
             <RadialGradient gradient={["white", "purple"]}>HOME</RadialGradient>
@@ -43,7 +47,9 @@ function NavBar() {
         </li>
         <li>
           <Link className="nav-link" style={{ textDecoration: "none" }} to="">
-            <RadialGradient gradient={["white", "purple"]}>CONTACTS</RadialGradient>
+            <RadialGradient gradient={["white", "purple"]}>
+              CONTACTS
+            </RadialGradient>
           </Link>
         </li>
       </ul>
